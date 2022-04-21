@@ -111,94 +111,26 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*descubre*/
 
-.lava{
-    color: #F2F2F2;
+.descubre{
+    background-image: url(/img/LAVAbackgorund2.png);
+    background-size: 100%;
 }
-
-.descubre-table{
-    width: 100%;
-    border:solid 2px #F2F2F2 ;
-}
-
-.nav5, .nav6, .nav7, .nav8{
-    color: #F2F2F2;
-}
-
-.background{
-    background-color: #0D0D0D;
-}
-
-.textone{
-    font-family: 'Oswald', sans-serif; 
+.main-h1{
     text-align: center;
-    color: #F2F2F2;
-    margin-top: 50px;
-}
-
-.mac{
-    height: 300px;
-    border-radius: 90%;
-}
-
-.joji{
-    height: 300px;
-    border-radius: 90%;
-}
-
-.thestrokes{
-    height: 300px;
-    border-radius: 90%;
-    
-}
-
-.music{
-    margin-top: 50px;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-}
-.music-name{
     color: white;
-    font-family: 'Oswald', sans-serif; 
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-}
-.boton{
-    width: 200;
-    height: 50;
-    
-    text-align: center; 
-    font-family: 'Oswald', sans-serif; 
+    font-family: 'Oswald', sans-serif;
     margin-top: 50px;
+
 }
-.buscar{
-    color: white
-}
-.footer3{
-    color: white;
-    margin-top: 350px;
+.card{
+    margin-top: 40px;
 }
 
-
-
-
+footer{
+    padding-top: 30px;
+}
 
 
 

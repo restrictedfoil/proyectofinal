@@ -4,60 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../style.css">
-    <title>LAVA.</title>
+    <title>LAVA</title>
 </head>
-<body class="background">
-    <div class="descubre-cont">
+<body class="descubre">
 
-        <header class="main-header">
-            <a href="../index.html"><h1 class="lava">LAVA.</h1></a>
-        </header>
+    <!--NAVBAR-->
+ <nav class="navbar navbar-dark bg-dark" aria-label="First navbar example">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <nav>
-            <table class="descubre-table">
-                <tr>
-                    <th>
-                        <a class="nav5" href="../pages/descubre.html">descubre</a>
-                    </th>
-                    <th>
-                        <a class="nav6" href="../pages/listas.html">listas</a>
-                    </th>
-                    <th>
-                        <a class="nav7" href="../pages/perfil.html">perfil</a>
-                    </th>
-                    <th>
-                        <a class="nav8" href="../pages/comunidad.html">comunidad</a>
-                    </th>
-                </tr>
-            </table>
-        </nav>
-
-        <section class="textone" >
-            <h2>buscando algo nuevo para escuchar?</h2>
-        </section>
-
-        <div class="music" >
-        
-         <a href="https://open.spotify.com/artist/0epOFNiUfyON9EYx7Tpr6V" target="_blank" rel="noopener noreferrer"><img class="thestrokes" src="../img/the strokes.jfif" alt=""></a>
-         <a href="https://open.spotify.com/artist/3MZsBdqDrRTJihTHQrO6Dq" target="_blank" rel="noopener noreferrer"><img class="joji" src="../img/Joji.jfif" alt=""></a>
-         <a href="https://open.spotify.com/artist/3Sz7ZnJQBIHsXLUSo0OQtM" target="_blank" rel="noopener noreferrer"><img class="mac" src="../img/macdemarco.jfif" alt=""></a>
-        
-        </div>
-
-        <div class="music-name">
-            <h2>The Strokes</h2>
-            <h2>Joji</h2>
-            <h2>Mac Demarco</h2>
-        </div>
-
-        <div class="boton">
-          <a class="buscar" href="http://" target="_blank" rel="noopener noreferrer">Buscar</a>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarsExample01">
+        <ul class="navbar-nav me-auto mb-2">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="descubre.html">descubre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="listas.html">listas</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Social</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown01">
+              <li><a class="dropdown-item" href="perfil.html">Perfil</a></li>
+              <li><a class="dropdown-item" href="comunidad.html">Comunidad</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form>
+          <input class="form-control" type="text" placeholder="Buscar" aria-label="Search">
+        </form>
+      </div>
+    </div>
+  </nav>
+   <!--NAVBAR--> 
+    
+     <h1 class="main-h1">descubre las ultimas noticias</h1>
 
 
-        <footer class="footer3">todos los derechos reservados</footer>
+   <!--cards-->
+   <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+            <a href="https://www.airedesantafe.com.ar/espectaculos/save-your-tears-el-remix-ariana-grande-y-the-weeknd-encabeza-la-lista-mundial-billboard-n200183?msclkid=3775645dc1c911ec8262e93241580292" target="_blank" rel="noopener noreferrer"><img src="../img/afterhours.jfif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">"Save your tears": el remix entre Ariana Grande y The weeknd encabeza la lista mundial de Billboard</p>
+                </div></a>
+          </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+           <a href="https://www.lanacion.com.ar/espectaculos/brian-may-confirmo-que-evaluan-una-secuela-de-bohemian-rhapsody-nid09082021/" target="_blank" rel="noopener noreferrer"> <img src="../img/queen.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Brian May confirmó que evalúan una secuela de    Bohemian Rhapsody.
+                El histórico guitarrista de Queen reveló en un vivo de Instagram que existe la posibilidad de una segunda parte de la película de Freddie Mercury</p>
+            </div></a>
+          </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+           <a href="https://cnnespanol.cnn.com/2019/06/25/asi-fue-como-la-inclinacion-de-michael-jackson-desafio-la-gravedad/" target="_blank" rel="noopener noreferrer"> <img src="../img/michael.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Así fue como la inclinación de Michael Jackson desafió la gravedad</p>
+            </div></a>
+          </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--footer-->
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-5 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+        </a>
+        <span class="text-muted">&copy; 2021 Company, Inc</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+      </ul>
+    </footer>
+    </div>
+    <!--footer-->
+  
 
-    </div>  
+
+
+
+
+
+
+
+ <script src="../js/bootstrap.js"></script>
+    
+</body>
 </body>
 </html>
