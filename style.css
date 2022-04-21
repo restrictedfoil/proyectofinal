@@ -5,151 +5,28 @@
     padding: 0;
 }
 
-.lava{
-    color: black;
-}
-
 .index{
-    background-image: url(../PROYECTOFINAL/img/callme.jfif);
+    background-image: url(./img/LAVAbackgorund.png);
+    background-size: 100%;
+   
 }
 
-.main-header{
-    display: flex;
-    justify-content: center;
-    font-family: 'Oswald', sans-serif;
-}
-
-.main-table{
-    width: 100%;
-    border:solid 2px black ;
-}
-
-.nav1, .nav2, .nav3, .nav4{
-    color: black;
-    font-family: 'Oswald', sans-serif;
-}
-
-
-.main-footer{
-    display: flex;
-    justify-content: flex-start;
+.nuevo{
+    text-align: center;
+    margin-top: 30px;
     font-family: 'Oswald', sans-serif; 
-    color: black;
-    padding-top: 10px;
+    
 }
 
-.lanzamiento{
-    text-align: center;
-    margin-top: 50px;
-    font-family: 'Oswald', sans-serif;
-}
-.album{
-    width: 500px;
-    margin-top: 90px;
-}
-.portada, .tyler, .coll{
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-}
-.igor{
-    width: 300px;
-    border-radius: 90%;
-    border: solid black 2px;
-}
-
-.main-face{
-    text-align: center;
-    margin-top: 90px;
-}
-
-.info{
-    font-family: 'Oswald', sans-serif;
-    font-size: 30px;
-    text-align: center;
-}
-
-
-
-
-/*grid*/
-
-.main-table{
-    grid-area: tabla;
-}
-.main-header{
-    grid-area: header;
-}
-.lanzamiento{
-    grid-area: nuevo;
-}
-.tyler{
-    grid-area: nombre;
-}
-.coll{
-    grid-area: nombre2;
-}
-.main-face{
-    grid-area: igor;
-}
 .portada{
-    grid-area: base;
-}
-.info{
-    grid-area: texto;
-}
-.main-footer{
-    grid-area: footer;
+    text-align: center;
 }
 
-.contenedor{
-    display: grid;
-    grid-template-areas:
-    "header" 
-    "tabla"
-    "nuevo"
-    "base"
-    "nombre"
-    "nombre2"
-    "igor"
-    "texto"
-    "footer";
+.nombre{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 30px;
 }
-
-@media(min-width 500px){
-    .contenedor{
-        display: grid;
-        grid-template-areas: 
-        "header header"
-        "tabla"
-        "nuevo"
-        "nombre"
-        "nombre2"
-        "base"
-        "igor"
-        "texto"
-        "footer";
-    }
-}
-
-@media(min-width 700px){
-    .contenedor{
-        display: grid;
-        grid-template-areas: 
-        "header"
-        "tabla"
-        "nuevo"
-        "base"
-        "nombre"
-        "nombre2"
-        "igor igor"
-        "texto texto"
-        "footer footer";
-    }
-}
-
-
-
-
 
 
 
