@@ -38,30 +38,16 @@
    margin-top: 30px;
    font-family: 'Oswald', sans-serif; 
    font-size: 20px;
-   color: #F25E5E;
+   color: #1D1C40;
 }
+
 .listas{
-    background-color: #F2A0DC;
+    background-image: url(./img/lavabackground3.png);
+    background-size: 100%;
 }
-.artistas-nav{
-    color: #F25E5E;
-}
-.artistas-table{
-    width: 100%;
-    border:solid 2px black
-}
-.mas{
-    color: #F25E5E ;
-}
-.side{
-    text-align: center;
-    margin-top: 50px;
-    font-family: 'Oswald', sans-serif; 
-}
-.main-footer{
-    margin-top: 30px;
-    background-color: white;
-}
+
+
+
 
 
 
@@ -108,6 +94,57 @@
     justify-content: space-around;
     margin-top: 70px;
 }
+
+
+.billie:hover{
+    transform: scale(2);
+    transition: all 2s;
+}
+.melanie:hover{
+    transform: scale(2);
+    transition: all 2s;
+}
+.daft:hover{
+    transform: scale(2);
+    transition: all 2s;
+}
+.doja:hover{
+    transform: scale(2);
+    transition: all 2s
+}
+.travis:hover{
+    transform:scale(2) ;
+    transition: all 2s;
+}
+.cuco:hover{
+    transform: scale(2);
+    transition: all 2s;
+}
+.kali:hover{
+    transform: scale(2);
+    transition: all 2s;
+}
+.kanye:hover{
+    transform: scale(2);
+    transition: all 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
