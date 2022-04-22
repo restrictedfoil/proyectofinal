@@ -4,56 +4,133 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../style.css">
     <title>comunidad</title>
 </head>
-<body class="todo">
-    <div class="comun">
+<body class="comunidad">
 
-           <header class="main-header">
-            <a href="../index.html"><h1 class="lava">LAVA.</h1></a>
-           </header> 
+     <!--NAVBAR-->
+ <nav class="navbar navbar-dark bg-dark" aria-label="First navbar example">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-stop-circle" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+        <path d="M5 6.5A1.5 1.5 0 0 1 6.5 5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5v-3z"/>
+      </svg></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-           <nav>
-            <table class="main-table">
-                <tr>
-                    <th>
-                        <a class="nav1" href="../pages/descubre.html">descubre</a>
-                    </th>
-                    <th>
-                        <a class="nav2" href="../pages/listas.html">listas</a>
-                    </th>
-                    <th>
-                        <a class="nav3" href="../pages/perfil.html">perfil</a>
-                    </th>
-                    <th>
-                        <a class="nav4" href="../pages/comunidad.html">comunidad</a>
-                    </th>
-                </tr>
-            </table>  
-           
-          </nav>
-        
-
-         <div class="chat1">
-            <img class="ta1" src="../img/igor.jfif" alt="">
-            <textarea name="" id="" cols="30" rows="10">hola 123</textarea>
-         </div>
-
-
-         <div class="chat2">
-            <img class="ta2" src="../img/Joji.jfif" alt="">
-            <textarea name="" id="" cols="30" rows="10">hola123</textarea>
-         </div>
-
-
-        <div class="chat3">
-            <img class="ta3" src="../img/jojo.jfif" alt="">
-            <textarea name="" id="" cols="30" rows="10">123hola</textarea>
-        </div>
-
-        <footer class="main-footer" >todos los derechos reservados</footer>
-
+      <div class="collapse navbar-collapse" id="navbarsExample01">
+        <ul class="navbar-nav me-auto mb-2">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="descubre.html">descubre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="listas.html">listas</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Social</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown01">
+              <li><a class="dropdown-item" href="perfil.html">Perfil</a></li>
+              <li><a class="dropdown-item" href="comunidad.html">Comunidad</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form>
+          <input class="form-control" type="text" placeholder="Buscar" aria-label="Search">
+        </form>
+      </div>
     </div>
+  </nav>
+   <!--NAVBAR--> 
+
+<!--perfiles-->
+   <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img src="../img/jojo.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">porque el soundtrack de jojos es tan bueno?.</p>
+            </div>
+          </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img src="../img/the strokes.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">recomendacion de la semana, "the new abnormal" de the strokes!!!</p>
+            </div>
+          </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img src="../img/Joji.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">este es un top de canciones de joji que te recomiendo escuchar</p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img src="../img/the batman.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">te gusto batman? estas son las canciones que sonaron durante toda la pelicula</p>
+            </div>
+          </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img src="../img/macdemarco.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">escuchen mac demarco porfavor!!!!
+              </p>
+            </div>
+          </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img src="../img/mac miller.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">mac miller, sin duda un artista infravalorado</p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <!--perfiles-->
+
+
+   <!--footer-->
+ <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-5 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+        </a>
+        <span class="text-muted">&copy; 2021 Company, Inc</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+      </ul>
+    </footer>
+    </div>
+    <!--footer-->
+  
+ 
+
+ <script src="../js/bootstrap.js"></script>   
 </body>
 </html>

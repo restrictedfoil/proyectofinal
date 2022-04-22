@@ -48,10 +48,6 @@
 
 
 
-
-
-
-
 .kali{
     width: 300px;
     border-radius: 90%;
@@ -130,24 +126,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*descubre*/
 
 .descubre{
@@ -179,42 +157,6 @@
 
 /*perfil*/
 
-.perfil-color{
-    background-color:#F2A03D ;
-}
-.jojos{
-    border-radius: 90px;
-    width:200px ;
-    margin-top: 30px;
-}
-.after{
-    border-radius: 90%;
-    width: 200px;
-}
-.datos{
-    text-align: center;
-}
-.alejandro{
-    font-family: 'Oswald', sans-serif
-}
-.contenido{
-    text-align: center;
-    margin-top: 20px;
-}
-.arti-fav{
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    margin-top: 50px;
-}
-.losstrokes{
-    width: 200px;
-    border-radius: 90%;
-}
-.cancion-fav{
-    text-align: center;
-    margin-top: 30px;
-    font-family: 'Oswald', sans-serif;
-}
 
 
 
@@ -224,19 +166,17 @@
 
 /*comunidad*/
 
-.todo{
-    background-color: #558ED9;
+.comunidad{
+    background-image: url(./img/LAVAbackgorund4.png);
+    background-size: 100%;
 }
-
-.ta1, .ta2, .ta3{
+.jojo{
     border-radius: 90%;
     width: 200px;
+    margin-top: 30px;
 }
-
-.chat1, .chat2, .chat3{
-    text-align: center;
-    margin-top: 120px;
-}
-.main-footer{
-    margin-top: 20%;
+.texto{
+    
+    width: 500px;
+    height: 200px;
 }
