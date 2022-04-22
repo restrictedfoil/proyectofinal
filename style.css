@@ -157,7 +157,10 @@
 
 /*perfil*/
 
-
+.perfil{
+    background-image: url(./img/LAVAbackgorund5.png);
+    background-size: 100%;
+}
 
 
 
