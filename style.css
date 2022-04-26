@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
 *{
@@ -31,100 +32,101 @@
 
 
 
-             /*listas*/
+/*listas*/
 
-.text1{
-   text-align: center;
-   margin-top: 30px;
-   font-family: 'Oswald', sans-serif; 
-   font-size: 20px;
-   color: #1D1C40;
+             
+.listas {
+  background-image: url(./img/lavabackground3.png);
+  background-size: 100%;
 }
 
-.listas{
-    background-image: url(./img/lavabackground3.png);
-    background-size: 100%;
-}
-
-
-
-.kali{
-    width: 300px;
-    border-radius: 90%;
-}
-.cuco{
-    border-radius: 90%;
-}
-.kanye{
-    border-radius: 90%;
-}
-.daft{
-    width: 300px;
-    border-radius: 90%;
-}
-.playlist{
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 70px;
-}
-
-.travis{
-    border-radius: 90%;
-}
-.doja{
-    width: 300px;
-    border-radius: 90%;
-}
-.billie{
-    width: 300px;
-    border-radius: 90%;
-}
-.melanie{
-    width: 300px;
-    border-radius: 90%;
-}
 .playlist2{
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 70px;
+  margin-top: 30px;
 }
 
-
-.billie:hover{
-    transform: scale(2);
-    transition: all 2s;
-}
-.melanie:hover{
-    transform: scale(2);
-    transition: all 2s;
-}
-.daft:hover{
-    transform: scale(2);
-    transition: all 2s;
-}
-.doja:hover{
-    transform: scale(2);
-    transition: all 2s
-}
-.travis:hover{
-    transform:scale(2) ;
-    transition: all 2s;
-}
-.cuco:hover{
-    transform: scale(2);
-    transition: all 2s;
-}
-.kali:hover{
-    transform: scale(2);
-    transition: all 2s;
-}
-.kanye:hover{
-    transform: scale(2);
-    transition: all 2s;
+.playlist3{
+  margin-top: 30px;
+  
 }
 
+.text1 {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  color: #1D1C40;
+}
+
+.kali {
+  width: 300px;
+  border-radius: 90%;
+}
+.kali:hover {
+  transform: scale(2);
+  transition: all 2s;
+}
+
+.cuco {
+  border-radius: 90%;
+}
+.cuco:hover {
+  transform: scale(2);
+  transition: all 2s;
+}
+
+.billie {
+  width: 300px;
+  border-radius: 90%;
+}
+.billie:hover {
+  transform: scale(2);
+  transition: all 2s;
+}
+
+.daft {
+  width: 300px;
+  border-radius: 90%;
+}
+.daft:hover {
+  transform: scale(2);
+  transition: all 2s;
+}
+
+.doja {
+  width: 300px;
+  border-radius: 90%;
+}
+.doja:hover {
+  transform: scale(2);
+  transition: all 2s;
+}
+
+.melanie {
+  width: 300px;
+  border-radius: 90%;
+}
+.melanie:hover {
+  transform: scale(2);
+  transition: all 2s;
+}
+
+.travis {
+  border-radius: 90%;
+}
+.travis:hover {
+  transform: scale(2);
+  transition: all 2s;
+}
+
+.kanye {
+  border-radius: 90%;
+}
+.kanye:hover {
+  transform: scale(2);
+  transition: all 2s;
+}
+
+/*# sourceMappingURL=style.css.map */
 
 /*descubre*/
 
@@ -154,7 +156,7 @@
     margin-top: 30px;
 }
 
-/*comunidad*/
+ /*comunidad*/
 
 .comunidad{
     background-image: url(./img/LAVAbackgorund4.png);
@@ -170,4 +172,8 @@
     width: 500px;
     height: 200px;
 }
+
+
+
+
 

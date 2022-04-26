@@ -1,0 +1,85 @@
+
+.listas{
+    background-image: url(./img/lavabackground3.png);
+    background-size: 100%;
+}
+
+.text1{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Oswald', sans-serif; 
+    font-size: 20px;
+    color: #1D1C40;
+ }
+
+
+
+.kali{
+    width: 300px;
+    border-radius: 90%;
+    &:hover{
+        transform: scale(2);
+        transition: all 2s;
+    }
+}
+
+
+.cuco{
+    border-radius: 90%;
+    &:hover{
+        transform: scale(2);
+        transition: all 2s;
+    }
+}
+
+.billie{
+    width: 300px;
+    border-radius: 90%;
+    &:hover{
+        transform: scale(2);
+        transition: all 2s;
+    }
+}
+
+.daft{
+    width: 300px;
+    border-radius: 90%;
+    &:hover{
+        transform: scale(2);
+        transition: all 2s;
+    }
+}
+
+.doja{
+    width: 300px;
+    border-radius: 90%;
+    &:hover{
+        transform: scale(2);
+        transition: all 2s
+    }
+}
+
+.melanie{
+    width: 300px;
+    border-radius: 90%;
+    &:hover{
+        transform: scale(2);
+        transition: all 2s; 
+    }
+}
+
+.travis{
+    border-radius: 90%;
+    &:hover{
+        transform:scale(2) ;
+        transition: all 2s;
+    }
+}
+
+.kanye{
+    border-radius: 90%;
+    &:hover{
+        transform: scale(2);
+        transition: all 2s;
+    }
+}
