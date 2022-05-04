@@ -1,52 +1,6 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
-.index{
-    background-image: url(./img/LAVAbackgorund.png);
-    background-size: 100%;
-   
-}
-
-.nuevo{
-    text-align: center;
-    margin-top: 30px;
-    font-family: 'Oswald', sans-serif; 
-    
-}
-
-.portada{
-    text-align: center;
-}
-
-.nombre{
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    margin-top: 30px;
-}
-
-
-
-
-/*listas*/
-
-             
 .listas {
   background-image: url(./img/lavabackground3.png);
   background-size: 100%;
-}
-
-.playlist2{
-  margin-top: 30px;
-}
-
-.playlist3{
-  margin-top: 30px;
-  
 }
 
 .text1 {
@@ -59,7 +13,6 @@
 
 .kali {
   width: 300px;
-  border-radius: 90%;
 }
 .kali:hover {
   transform: scale(2);
@@ -127,53 +80,3 @@
 }
 
 /*# sourceMappingURL=style.css.map */
-
-/*descubre*/
-
-.descubre{
-    background-image: url(/img/LAVAbackgorund2.png);
-    background-size: 100%;
-}
-.main-h1{
-    text-align: center;
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    margin-top: 50px;
-
-}
-.card{
-    margin-top: 40px;
-}
-
-
-/*perfil*/
-
-.perfil{
-    background-image: url(./img/LAVAbackgorund5.png);
-    background-size: 100%;
-}
-.datos{
-    margin-top: 30px;
-}
-
- /*comunidad*/
-
-.comunidad{
-    background-image: url(./img/LAVAbackgorund4.png);
-    background-size: 100%;
-}
-.jojo{
-    border-radius: 90%;
-    width: 200px;
-    margin-top: 30px;
-}
-.texto{
-    
-    width: 500px;
-    height: 200px;
-}
-
-
-
-
-

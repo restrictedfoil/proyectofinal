@@ -1,4 +1,10 @@
 
+
+@mixin largo ($largo) {
+    width: $largo;
+}
+
+
 .listas{
     background-image: url(./img/lavabackground3.png);
     background-size: 100%;
@@ -15,8 +21,7 @@
 
 
 .kali{
-    width: 300px;
-    border-radius: 90%;
+   @include largo(300px);
     &:hover{
         transform: scale(2);
         transition: all 2s;
@@ -33,7 +38,7 @@
 }
 
 .billie{
-    width: 300px;
+    @include largo(300px);
     border-radius: 90%;
     &:hover{
         transform: scale(2);
@@ -42,7 +47,7 @@
 }
 
 .daft{
-    width: 300px;
+    @include largo(300px);
     border-radius: 90%;
     &:hover{
         transform: scale(2);
@@ -51,7 +56,7 @@
 }
 
 .doja{
-    width: 300px;
+    @include largo(300px);
     border-radius: 90%;
     &:hover{
         transform: scale(2);
@@ -60,7 +65,7 @@
 }
 
 .melanie{
-    width: 300px;
+    @include largo(300px);
     border-radius: 90%;
     &:hover{
         transform: scale(2);
